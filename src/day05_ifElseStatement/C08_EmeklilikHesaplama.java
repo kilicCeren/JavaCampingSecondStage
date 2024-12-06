@@ -13,8 +13,8 @@ public class C08_EmeklilikHesaplama {
         System.out.println("Lutfen yasinizi giriniz:");
         double yas = scan.nextDouble();
 
-        if ( yas >= 65 ) System.out.println( "Emekli olabilirsin");
-        else System.out.println("Emekli olmak icin " + (65-yas) + " yil daha calismalisin");
+        if (yas >= 65) System.out.println("Emekli olabilirsin");
+        else System.out.println("Emekli olmak icin " + (65 - yas) + " yil daha calismalisin");
 
     }
 }

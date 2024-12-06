@@ -16,16 +16,16 @@ public class C09_BuyukHarfKontrol {
         // 1. yontem = ASCII Table
 
         if (karakter >= 'A' && karakter <= 'Z') {
-            System.out.println("Girilen karakter buyuk harf");}
-        else {
+            System.out.println("Girilen karakter buyuk harf");
+        } else {
             System.out.println("Girilen harf buyuk harf degil");
         }
 
         //2. yontem = wrapper class kullanimi
 
-        if (Character.isUpperCase(karakter)){
-            System.out.println("Girilen karakter buyuk harf");}
-        else {
+        if (Character.isUpperCase(karakter)) {
+            System.out.println("Girilen karakter buyuk harf");
+        } else {
             System.out.println("Girilen harf buyuk harf degil");
         }
 

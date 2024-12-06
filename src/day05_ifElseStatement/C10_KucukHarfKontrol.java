@@ -16,13 +16,13 @@ public class C10_KucukHarfKontrol {
         // 1.yontem = ASCII Table
 
         if (karakter >= 'a' && karakter <= 'z') {
-            System.out.println("Girilen kucuk harfi buyuk harfe cevirdim :" + (char)(karakter-32));}
-        else System.out.println("Girilen karakter: " + karakter);
+            System.out.println("Girilen kucuk harfi buyuk harfe cevirdim :" + (char) (karakter - 32));
+        } else System.out.println("Girilen karakter: " + karakter);
 
         //2. yontem = wrapper class kullanarak
 
-        if ( Character.isLowerCase(karakter)){
+        if (Character.isLowerCase(karakter)) {
             System.out.println(Character.toUpperCase(karakter));
-        }else System.out.println(karakter);
+        } else System.out.println(karakter);
     }
 }
