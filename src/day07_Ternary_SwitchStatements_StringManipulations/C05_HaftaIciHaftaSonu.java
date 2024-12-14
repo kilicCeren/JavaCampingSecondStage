@@ -1,4 +1,4 @@
-package day07_ternary_switchStatements_stringManipulations;
+package day07_Ternary_SwitchStatements_StringManipulations;
 
 import java.util.Scanner;
 
