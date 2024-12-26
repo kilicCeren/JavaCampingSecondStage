@@ -23,7 +23,7 @@ public class C12_LastIndexOf {
         if (a == b) {
             System.out.println("Benim kelimesi 1 kere kullanılmış");//Benim kelimesi 1 kere kullanılmış
         } else {
-            System.out.println("Benim kelimesi 1'den fazla kullanılmış");
+            System.out.println("Benim kelimesi 1'den fazla kullanılmış ");
         }
     }
 }
