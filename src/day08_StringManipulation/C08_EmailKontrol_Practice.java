@@ -16,7 +16,7 @@ public class C08_EmailKontrol_Practice {
         */
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.print("Mail adresinizi giriniz: ");
+        System.out.print("Mail adresinizi giriniz : ");
         String mail = scan.nextLine();
 
         if (!mail.contains("@")) {
