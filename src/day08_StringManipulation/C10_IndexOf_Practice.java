@@ -12,7 +12,7 @@ public class C10_IndexOf_Practice {
         */
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Lütfen bir metin giriniz..");
+        System.out.println("Lütfen bir metin giriniz...");
 
         String metin = scanner.nextLine();
         String arananHarf = "a";
@@ -21,7 +21,7 @@ public class C10_IndexOf_Practice {
         System.out.println(arananHarfinIlkIndexi); //3
 
         int arananHarfinIkınciIndexi = metin.indexOf("a", arananHarfinIlkIndexi + 1);
-                                    // a harfini ara, ilk indexten sonraki indexten kontrol etmeye başla
+                                     // a harfini ara, ilk indexten sonraki indexten kontrol etmeye başla
         System.out.println(arananHarfinIkınciIndexi);//6
     }
 }
