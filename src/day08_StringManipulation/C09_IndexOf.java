@@ -9,7 +9,7 @@ public class C09_IndexOf {
         // iki parametre olarak yazılırsa da verilen indexten sonra ki ilk kullanımın indexini verir (DİKKAT)
 
 
-        String str = "Çok çalışmam gerekiyor çok";
+        String str ="Çok çalışmam gerekiyor çok";
 
         // a harfi str'da ilk olarak hangi indexte
         System.out.println(str.indexOf('a')); //5
