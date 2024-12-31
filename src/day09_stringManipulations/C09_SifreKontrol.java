@@ -36,7 +36,7 @@ public class C09_SifreKontrol {
         }
 
         if (!(sifre.length() >= 10)) {
-            System.out.println("Sifre uzunlugu en az 10 karakter olmali");
+            System.out.println("Sifre uzunlugu en az  10 karakter olmali");
             sayac++;
         }
 
