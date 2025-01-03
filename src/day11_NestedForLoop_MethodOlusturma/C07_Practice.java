@@ -9,12 +9,12 @@ public class C07_Practice {
            1 2 3
           1 2 3 4
          */
-        for (int i = 1; i <=4 ; i++) {
-            for (int j = 1; j <5-i ; j++) {
+        for (int i = 1; i <= 4; i++) {
+            for (int j = 1; j < 5 - i; j++) {
                 System.out.print(" ");
             }
-            for (int j = 1; j <=i ; j++) { // sekil ucgense i'ye kadar
-                System.out.print(j +" ");
+            for (int j = 1; j <= i; j++) { // sekil ucgense i'ye kadar
+                System.out.print(j + " ");
             }
             System.out.println("");
         }
