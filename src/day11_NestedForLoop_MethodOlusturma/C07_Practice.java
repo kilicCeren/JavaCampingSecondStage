@@ -2,17 +2,37 @@ package day11_NestedForLoop_MethodOlusturma;
 
 public class C07_Practice {
     public static void main(String[] args) {
+          /*
+        Asagidaki sekli cizdiricek kodu yaziniz
+             1
+            1 2
+           1 2 3
+          1 2 3 4
+         */
+        for (int i = 1; i <=4 ; i++) {
+            for (int j = 1; j <5-i ; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 1; j <=i ; j++) { // sekil ucgense i'ye kadar
+                System.out.print(j +" ");
+            }
+            System.out.println("");
+        }
+
+        System.out.println("\n-------------------------------------------------\n");
+
          /*
 
               asagidaki sekli cizdirecek kodu yaziniz
 
-                  1
-                 1 1
-                1 2 1
-               1 2 2 1
-              1 2 3 2 1
-            1 2 3 3 2  1
-         */
+                          1
+                         1 1
+                        1 2 1
+                       1 2 2 1
+                      1 2 3 2 1
+                     1 2 3 3 2 1
+                    1 2 3 4 3 2 1
+        */
 
 
         int maxSatir = 7;//n  satir sayisi
